@@ -1,16 +1,35 @@
-# kodersassignment2
+# Flutter Whop Authentication
 
-A new Flutter project.
+## Introduction
 
-## Getting Started
+This project demonstrates how to implement authentication in a Flutter application using Whop. Whop provides a simple and secure way to manage user authentication.
 
-This project is a starting point for a Flutter application.
+## Setup
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK
+- A Whop account and API key
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/vibzz2003/whop-authentication-flutter
+
+   cd whop-authentication-flutter
+
+2. **Install dependencies**:
+   ```sh
+   flutter pub get
+
+3. Configure Whop API Key in the providers/auth_provider.dart file:
+   ```sh
+   final _accessToken = '';
+   String get accessToken => _accessToken;
+
+4. Run the application:
+   ```sh
+   flutter run
+   
+  
